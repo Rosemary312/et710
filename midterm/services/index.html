@@ -1,28 +1,26 @@
 <!doctype html>
-<html ng-app="yachtApp" class="no-js" lang="en" dir="ltr">
+<html ng-app class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ET-710 Midterm</title>
+    <title>Services</title>
 <!-- Begin AngularJS -->
-        <script src="js/vendor/angular-1.7.8/angular.min.js"></script>
-        <script src="js/vendor/angular-1.7.8/angular-animate.min.js"></script>
-        <script src="js/vendor/angular-1.7.8/angular-route.min.js"></script>
+        <script src="../js/vendor/angular-1.7.8/angular.min.js"></script>
+        <script src="../js/vendor/angular-1.7.8/angular-animate.min.js"></script>
+        <script src="../js/vendor/angular-1.7.8/angular-route.min.js"></script>
 <!-- End AngularJS -->
 
 
 <!-- Begin Datatables.net -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.20/datatables.min.css"/>
     <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.20/datatables.min.js"></script>
-<!-- Begin Datatables.net -->
-
+<!-- End Datatables.net -->
 
 <!-- Begin Font Awesome
 
 
-
-   The font Awesome code below is several revisions back.
+   The font Awesomecode below is several revisions back.
   https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font-family
   I discovered that it would work from an article on stack overflow. all code should at some point be updated to reflect the last calling syntax for font awesome -->
 
@@ -31,14 +29,14 @@
 <!-- End Font Awesome -->
 
 
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/app.css">
 
-    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="css/subnav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../css/footer.css">
   </head>
   <body>
    <!-- Begin Nav -->
@@ -54,12 +52,12 @@
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
-        <li><a href="about/index.html">About</a></li>
-        <li><a href="services/index.html">Services</a></li>
-        <li><a href="index.html#!/works">Works</a></li>
-        <li><a href="index.html#!/news">News</a></li>
-        <li><a href="index.html#!/contact">Contact</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="../index.html#!/works">Works</a></li>
+        <li><a href="../index.html#!/news">News</a></li>
+        <li><a href="../index.html#!/contact">Contact</a></li>
         <li>
           <button type="button" class="button hollow topbar-responsive-button">Categories</button>
         </li>
@@ -70,7 +68,6 @@
 </div>
 </div>
 
-
    <!-- End Nav -->
 
    <!-- Begin SubNav-->
@@ -80,7 +77,7 @@
    <!-- End Header-->
 
    <!-- Begin Content -->
-   <div ng-view></div>
+   <h1>Services Page</h1>
    <!-- Begin AngularJS -->
    <div>
       <label>Name:</label>
@@ -151,25 +148,21 @@
           </div>
           <div class="column">
             <ul class="menu marketing-site-footer-bottom-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="about/index.html">About</a></li>
-              <li><a href="services/index.html">Services</a></li>
-              <li><a href="index.html#!/works">Works</a></li>
-              <li><a href="index.html#!/news">News</a></li>
-              <li><a href="index.html#!/contact">Contact</a></li>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about/index.html">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="../index.html#!/works">Works</a></li>
+              <li><a href="../index.html#!/news">News</a></li>
+              <li><a href="../index.html#!/contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
-
    <!-- *End Footer -->
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/spa.js"></script>
-
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/vendor/what-input.js"></script>
+    <script src="../js/vendor/foundation.js"></script>
+    <script src="../js/app.js"></script>
   </body>
 </html>
